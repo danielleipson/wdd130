@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap&family=Noto+Sans+Display:wght@700&family=Signika+Negative&display=swap');
+
+  /* change the values below to your chosen font(s) */
+:root{
+--heading-font: 'Noto Sans Display';
+--paragraph-font: 'Signika Negative', Helvetica, sans-serif;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto; 
@@ -5,8 +12,11 @@
 .logo {
     width:80px;
 }
+#logo_link   {padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -16,6 +26,7 @@ nav a {
     text-align: center;
     color: #FFF;   
     text-decoration: none;
+    padding: 35px;
 
 }
 nav a:hover {
@@ -35,7 +46,12 @@ main section{
     text-align: center;
 
 }
-
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
 #background {
     background-color:#0097B2;
     height: 725px;
@@ -43,15 +59,21 @@ main section{
 
 body {
     background-color: #FFF;
+    margin: 0;
+    padding: 0;
 }
 .home-title {
     color: #919191;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #919191;
 }
 h2 {
     color:#919191;
+    margin: 0;
 }
 header {
     background-color: #919191;
@@ -60,25 +82,37 @@ header {
     background-color: #919191;
     color: #FFF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #0097B2;
     color: #FFF;
 }
-
+.rivers-card, .camping-card, .rapids-card   {
+    margin: 200px 0;
+}
 .msg {
     background-color: #EAEFF2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg p {
     color: #919191;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .msg h2 {
     color: #919191;
+    font-family: var(--heading-font);
 }
 
 footer {
     background-color: #EAEFF2;
     color: #919191;
+    padding: 25px 50px;
     
 }
 footer a {
@@ -90,10 +124,13 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
+    margin-top: 200px;
 }
 footer p a:hover {
     text-decoration: underline;
-}    
+}   
+footer .social img   {
+    padding-top: 15px; }
 
 
 
