@@ -57,7 +57,7 @@ nav a:hover {
     text-align: center;
     color: white;
     text-shadow: 10px 10px 30px #000;
-    text
+
 }
 #hero-msg h4 {
     color: white;
@@ -80,8 +80,6 @@ nav a:hover {
 .book:hover, .join:hover {
     background-color: #5CBC47ff;
     color: #FFF;
-}
-.home-grid {
 }
 .home-grid h1 {
     background-color: #5CBC47ff;
