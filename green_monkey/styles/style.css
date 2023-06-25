@@ -94,14 +94,21 @@ nav a:hover {
     color:#ffffff;
     text-decoration:none;
 }
-
+main h1 {
+    background-color: #5CBC47ff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin:0;
+}
 
 .cimage {
     float:left;
     margin:5px;
 }
-.contact-box p {
+.about-us {
     font-size: 24px;
+    clear:both;
 }
 
 .home-grid {
@@ -124,10 +131,16 @@ nav a:hover {
     grid-column: 2/5;
     grid-row: 2/3;
 }
+.Pest-Control h2{
+    text-align:center;
+}
 .Lawn-Card {
     margin: 200px 0;
     grid-column: 7/10;
     grid-row: 2/3;
+}
+.Lawn-Card h2 {
+    text-align:center;
 }
 .card-img {
     width: 100%;
@@ -181,7 +194,7 @@ footer .social img   {
         padding: 1em;
         border: 1px solid #ccc;
         border-radius: 1em;
-        clear:both;
+        float:right;
       }
       
       form ul {
